@@ -1,11 +1,36 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color:rgb(235, 235, 68) ;
+}
 .container{
     margin: 0 auto;
-    background-color: rgb(240, 240, 10);
+    background-color: rgb(235, 235, 68);
     border: 2px solid rgb(223, 209, 82);
     text-align: center;
     width: 50%;
-    height: 100%;
     padding: 10px;
     border-radius: 1em;
     float: none;
 }
+.heading {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1em;
+
+}
+button{
+    border-radius: 2.5em;
+    background-color: white;
+    
+    color: black;
+}
+input, select{
+    border-radius: 2.5em;
+    background-color: white;
+}
+input{
+    padding: 5px;
+}
+
+
+
